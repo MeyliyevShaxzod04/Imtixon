@@ -12,6 +12,12 @@
 }
 button:hover{
      cursor: pointer;
+     
+}
+
+button a{
+     text-decoration: none;
+     color: white;
 }
 
 li {
@@ -442,3 +448,50 @@ border-radius: 6px;
 
 
 /* /Footer section styles */
+
+
+.last-ul {
+     width: 216px;
+     height: 24px;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+          gap: 45px}
+
+
+               .footer {
+               position: absolute;
+               top: 4531px;
+               background: #101010;
+               width: 100vw;
+               height: 622px
+           }
+
+
+           .hr {
+               width: 100vw;
+               height: 1px;
+               background: #3b4155;
+               bottom: 200px
+           }
+           
+           .logo-a {
+               bottom: 150px
+           }
+           
+           .div-p {
+               width: 201px;
+               height: 27px;
+               left: 1127px;
+               bottom: 180px
+           }
+           
+           .foot-a:active,
+           .number2:active {
+               color: #1aab7b;
+               opacity: .8
+           }  
